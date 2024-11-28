@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import Footer from './components/Footer'; // Ajusta la ruta según la ubicación de tu archivo
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
+  
     <>
       
+      <Footer />
     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
