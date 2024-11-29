@@ -14,12 +14,12 @@ const NavBar = () => {
   return (
     <Navbar className='bg-light d-flex align-items-center justify-content-between' expand='lg'>
         <Navbar.Brand className='mx-5' href='/'>
-            <p>Productos</p>
+            <p>Produ</p>
         </Navbar.Brand>
         <img className='logo me-3' src='/src/assets/logo.jpg' alt="HomeCloset" />
         <div className='d-flex flex-grow-1 justify-content-center'>
             
-            <div className='Titulo'><h1 >HOME CLOSET</h1></div>
+            <div className='Titulo'><h1>HOME CLOSET</h1></div>
         </div>
         <Navbar.Toggle aria-controls='basic-navbar-var'/>
         <Navbar.Collapse id='basic-navbar-var' className='justify-content-end'>
