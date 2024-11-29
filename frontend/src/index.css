@@ -1,4 +1,16 @@
-.root{
-    color: FFE6A9;
-    height: inherit;
-}
+/* Global.css o estilos generales */
+html, body, #root {
+    height: 100%; /* Toda la pantalla */
+    margin: 0; /* Quitar márgenes por defecto */
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column; /* Estructura en columna */
+    min-height: 100vh; /* Altura mínima igual a la pantalla */
+  }
+  
+  .content {
+    flex: 1; /* Este espacio crecerá si hay contenido adicional */
+  }
+  

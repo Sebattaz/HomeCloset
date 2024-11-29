@@ -1,3 +1,18 @@
+import React from 'react';
+import Footer from './components/Footer'; // Ajusta la ruta según la ubicación de tu archivo
+
+function App() {
+  return (
+  
+    <>
+      
+      <Footer />
+    
+    </>
+  );
+}
+
+export default App;
 import { useState } from 'react'
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
