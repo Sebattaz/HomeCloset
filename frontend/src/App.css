@@ -14,3 +14,26 @@ html, body, #root {
     flex: 1; /* Este espacio crecerá si hay contenido adicional */
   }
   
+  .app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .home-container {
+    padding: 20px;
+  }
+  
+  .Registro-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Registro-button:hover {
+    background-color: #0056b3;
+  }
+  
