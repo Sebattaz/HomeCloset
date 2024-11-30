@@ -24,15 +24,15 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='basic-navbar-var'/>
         <Navbar.Collapse id='basic-navbar-var' className='justify-content-end'>
             <Nav>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center`} to={"/"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
                     <FaSearch />
                     Search
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center`} to={"/"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
                     <FaUser />
                     Login
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center`} to={"/"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
                     <FaShoppingCart />
                     Carrito
                 </Nav.Link>
