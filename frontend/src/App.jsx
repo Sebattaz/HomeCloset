@@ -1,23 +1,28 @@
-import Footer from './components/Footer'; // Ajusta la ruta según la ubicación de tu archivo
-import { useState } from 'react'
-import {Route, Routes} from 'react-router-dom'
-import './App.css'
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './componets/Navbar'
-import Home from './views/Home'
+import { Routes, Route, Link } from "react-router-dom";
+import NavBar from './components/Navbar'
+import Footer from './components/Footer'
+import Home from './views/Home';
+import Registro from './views/Registro';
+import ProductGallery from './views/ProductGallery';
 
-function App() {
- //const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-    <NavBar/>
-      <Routes>
-        <Route path='/' element={<Home />}/>
-      </Routes>
-    <Footer />
+        <NavBar />
+          <Routes>
+            {/* Ruta para la página principal */}
+            <Route path="/" element={<Home />} />
+            {/* Ruta para la página de registro */}
+            <Route path="/Registro" element={<Registro />} />
+            <Route path="/ProductGallery" element={<ProductGallery />} />
+          </Routes>
+        {/* Footer disponible en todas las rutas */}
+        <Footer />
+      
     </>
-  )
-}
+  );
+};
 
 export default App
