@@ -5,6 +5,8 @@ import {NavLink} from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+import { RiUserAddFill } from "react-icons/ri";
+import { IoHome } from "react-icons/io5";
 
 
 const NavBar = () => {
@@ -25,14 +27,22 @@ const NavBar = () => {
         <Navbar.Collapse id='basic-navbar-var' className='justify-content-end'>
             <Nav>
                 <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
-                    <FaSearch />
-                    Search
+                    <IoHome />
+                    Home
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
+                 <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/Registro"} >
+                    <RiUserAddFill />
+                    Registrate
+                </Nav.Link>
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/asdasd"} >
+                    <FaSearch />
+                    Busqueda
+                </Nav.Link>
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/ddd"} >
                     <FaUser />
                     Login
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/ddddss"} >
                     <FaShoppingCart />
                     Carrito
                 </Nav.Link>

@@ -14,29 +14,34 @@ const Home = () => {
     }
 
   return (
-    <Container>
+    <Container >
       <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
-      <Carousel.Item>
-        <img className="imgCarousel" src="/src/assets/HomeClosetBanner.jpg" alt="First slide" />
+      <Carousel.Item className="carousel-item">
+        <img className="imgCarousel" src="/src/img/carousel.jpg" alt="First slide" />
         <Carousel.Caption>
-          <h3>Primera imagen</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Duerme como nunca</h3>
+          <p>Sabanas de 380 y 500 hilos</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img className="imgCarousel" src="/src/assets/logo.jpg" alt="Second slide" />
+      <Carousel.Item className="carousel-item">
+        <img className="imgCarousel" src="/src/img/carousel2.jpg" alt="Second slide" />
         <Carousel.Caption>
-          <h3>Segunda imagen</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Luego de una ducha</h3>
+          <p>Toallas, toallones, para cara. 100% Algodon</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img className="imgCarousel" src="/src/assets/HomeClosetBanner.jpg" alt="Third slide" />
+      <Carousel.Item className="carousel-item">
+        <img className="imgCarousel" src="/src/img/carousel3.jpg" alt="Third slide" />
         <Carousel.Caption>
-          <h3>Tercera imagen</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>El descanso que mereces</h3>
+          <p>Almohadas de pluma y sinteticas</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="carousel-item">
+        <img className="imgCarousel" src="/src/img/carousel4.jpg" alt="Third slide" />
+        <Carousel.Caption>
+          <h3>Manten tu cocina en orden</h3>
+          <p>Paños de cocina ultra absorbentes</p>
         </Carousel.Caption>
       </Carousel.Item>
       
