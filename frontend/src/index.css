@@ -1,6 +1,6 @@
 /* Global.css o estilos generales */
-html, body, #root {
-    height: 100%; /* Toda la pantalla */
+body, #root {
+    height: auto; /* Toda la pantalla */
     margin: 0; /* Quitar márgenes por defecto */
   }
   

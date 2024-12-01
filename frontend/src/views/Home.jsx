@@ -14,7 +14,7 @@ const Home = () => {
     }
 
   return (
-    <Container >
+    <Container className="container" >
       <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
       <Carousel.Item className="carousel-item">
         <img className="imgCarousel" src="/src/img/carousel.jpg" alt="First slide" />
