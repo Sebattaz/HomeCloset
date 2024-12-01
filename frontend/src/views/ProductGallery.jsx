@@ -5,6 +5,7 @@ import "./styles/ProductGallery.css";
 const ProductGallery = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 6;
+ 
 
   // Calcular los productos a mostrar en la página actual
   const indexOfLastProduct = currentPage * productsPerPage;
