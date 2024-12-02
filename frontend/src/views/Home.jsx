@@ -27,7 +27,7 @@ const Home = () => {
         <img className="imgCarousel" src="/src/img/carousel2.jpg" alt="Second slide" />
         <Carousel.Caption>
           <h3>Luego de una ducha</h3>
-          <p>Toallas, toallones, para cara. 100% Algodon</p>
+          <p>Toallas, toallones, rostro y manos. 100% Algodon</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel-item">

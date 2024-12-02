@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container } from "react-bootstrap";
 import products from "/src/ProductsData";
 import "./styles/ProductGallery.css";
 
@@ -22,7 +23,7 @@ const ProductGallery = () => {
   };
 
   return (
-    <div className="gallery-container">
+    <Container className="gallery-container">
       <h2>Galería de Productos</h2>
       <div className="product-grid">
         {currentProducts.map((product) => (
@@ -42,7 +43,7 @@ const ProductGallery = () => {
           Siguiente
         </button>
       </div>
-    </div>
+    </Container>
   );
 };
 

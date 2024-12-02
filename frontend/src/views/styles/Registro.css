@@ -1,12 +1,14 @@
 
 .register-container {
-    max-width: 400px;
-    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 80vh;
+    margin-top: 150px;
+    margin-bottom: 25px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #D9CCA9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
   }
   
   h2 {
@@ -14,8 +16,21 @@
     margin-bottom: 20px;
   }
   
+.register-form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #ece2c7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
   .register-form div {
     margin-bottom: 15px;
+    width: 450px;
   }
   
   label {
@@ -32,7 +47,7 @@
   }
   
   button {
-    width: 100%;
+    width: 300px;
     padding: 10px;
     border: none;
     background-color: #007bff;

@@ -1,5 +1,6 @@
 // RegisterPage.jsx
 import React, { useState } from "react";
+import { Container } from "react-bootstrap";
 import './styles/Registro.css';
 
 const RegisterPage = () => {
@@ -44,9 +45,10 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="register-container">
-      <h2>Registrarse</h2>
+    <Container className="register-container">
+      
       <form onSubmit={handleSubmit} className="register-form">
+      <h2>Registrarse</h2>
         <div>
           <label>Nombre de usuario:</label>
           <input
@@ -89,7 +91,7 @@ const RegisterPage = () => {
         </div>
         <button type="submit">Registrarse</button>
       </form>
-    </div>
+    </Container>
   );
 };
 

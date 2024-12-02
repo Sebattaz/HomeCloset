@@ -17,7 +17,7 @@ const NavBar = () => {
  
  
   return (
-    <Navbar className="bg-light d-flex align-items-center justify-content-between" expand="lg">
+    <Navbar className="bg-light d-flex align-items-center justify-content-between fixed-top" expand="lg">
       {/* Botón hamburguesa con menú desplegable */}
       <Dropdown>
         <Dropdown.Toggle
@@ -49,8 +49,7 @@ const NavBar = () => {
         </Dropdown>
         <img className='logo me-3' src='/src/assets/logo.jpg' alt="HomeCloset" />
         <div className='d-flex flex-grow-1 justify-content-center'>
-            
-            <div className='Titulo'><h1>HOME CLOSET</h1></div>
+             <div className='Titulo'><h1>HOME CLOSET</h1></div>
         </div>
         <Navbar.Toggle aria-controls='basic-navbar-var'/>
         <Navbar.Collapse id='basic-navbar-var' className='justify-content-end'>
@@ -61,8 +60,7 @@ const NavBar = () => {
                 </Nav.Link>
                  <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/Registro"} >
                     <RiUserAddFill />
-                    Registrate
-                    
+                    Registrate  
                 </Nav.Link>
                 <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/asdasd"} >
                     <FaSearch />
