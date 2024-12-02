@@ -1,20 +1,22 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Container } from "react-bootstrap";
-import products from "/src/ProductsData";
+import { homeContext } from "../context/HomeContext";
 import "./styles/ProductGallery.css";
 
 const ProductGallery = () => {
+  
+  const { productos } = useContext(homeContext)
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 6;
+  const productsPerPage = 9;
  
 
   // Calcular los productos a mostrar en la página actual
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct);
+  const currentProducts = productos.slice(indexOfFirstProduct, indexOfLastProduct);
 
   // Cambiar de página
-  const totalPages = Math.ceil(products.length / productsPerPage);
+  const totalPages = Math.ceil(productos.length / productsPerPage);
   const handleNext = () => {
     if (currentPage < totalPages) setCurrentPage(currentPage + 1);
   };
@@ -26,11 +28,11 @@ const ProductGallery = () => {
     <Container className="gallery-container">
       <h2>Galería de Productos</h2>
       <div className="product-grid">
-        {currentProducts.map((product) => (
-          <div className="product-card" key={product.id}>
-            <img src={product.image} alt={product.name} />
-            <h3>{product.name}</h3>
-            <p>{product.price}</p>
+        {currentProducts.map((productos) => (
+          <div className="product-card" key={productos.id}>
+            <img src={productos.image} alt={productos.name} />
+            <h3>{productos.name}</h3>
+            <p>{productos.price}</p>
           </div>
         ))}
       </div>
