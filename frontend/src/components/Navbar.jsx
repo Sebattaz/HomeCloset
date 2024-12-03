@@ -70,7 +70,7 @@ const NavBar = () => {
                     <FaUser />
                     Login
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/ddddss"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/Carrito"} >
                     <FaShoppingCart />
                     Carrito
                 </Nav.Link>

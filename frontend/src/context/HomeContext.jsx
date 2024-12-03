@@ -5,6 +5,7 @@ import ListProduc from "../assets/ProductsData.json";
 export const HomeProvaider =({children})=>{
 
     const [productos, setProductos] = useState([]);
+    const [carrito, setCarrito] = useState([]);
 
     useEffect(() => {
       setProductos(ListProduc)
@@ -12,8 +13,13 @@ export const HomeProvaider =({children})=>{
     }, []);
     
 
+    const addLike =()=>{
+        
+    }
+
     const contextValues={
-        productos
+        productos,
+        carrito
     }
 
     return(

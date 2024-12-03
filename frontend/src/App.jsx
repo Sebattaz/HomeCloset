@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Home from './views/Home';
 import Registro from './views/Registro';
 import ProductGallery from './views/ProductGallery';
+import Carrito from './views/Carrito';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
             {/* Ruta para la página de registro */}
             <Route path="/Registro" element={<Registro />} />
             <Route path="/ProductGallery" element={<ProductGallery />} />
+            <Route path='/Carrito' element={<Carrito />} />
           </Routes>
         {/* Footer disponible en todas las rutas */}
         <Footer />
