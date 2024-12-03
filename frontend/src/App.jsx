@@ -29,6 +29,7 @@ const App = () => {
           </Routes>
         {/* Footer disponible en todas las rutas */}
         <Footer />
+        
       
     </HomeProvaider>
   );

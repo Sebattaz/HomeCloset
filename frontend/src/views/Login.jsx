@@ -15,7 +15,7 @@ const Login = () => {
   };
 
   return (
-    <Container className="d-flex justify-content-center align-items-center vh-100">
+    <Container className="d-flex justify-content-center align-items-center vh-100 ">
       <Row className="w-100">
         <Col md={{ span: 6, offset: 3 }} className="shadow p-4 rounded bg-light">
           <h2 className="text-center mb-4">Iniciar Sesión</h2>

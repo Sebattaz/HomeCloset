@@ -18,13 +18,6 @@ const Carrito = () => {
                   <img className='imgCarrito mx-3' src={cart.img} alt={cart.name} />
                   <h4>{cart.name.toUpperCase()}</h4>
                 </div>
-                <div className='d-flex w-50'>
-                  <p className='mx-4'>Precio Unitario ${cart.price.toLocaleString('es-CL')}</p>
-                  <h4>Cantidad </h4>
-                  <Button className='mx-2 h-50' onClick={()=>More(cart.id, cart.price)} variant='danger'>+</Button>
-                  <h4>{cart.cont}</h4>
-                  <Button className='mx-2 h-50' onClick={()=>Less(cart.id, cart.price, cart.cont)} variant='danger'>-</Button>
-                </div>
               </ListGroup.Item>
             ))
           }

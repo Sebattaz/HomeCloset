@@ -1,7 +1,9 @@
 import React, { useContext, useState } from "react";
 import { Container } from "react-bootstrap";
 import { homeContext } from "../context/HomeContext";
+import BtnCart from "../componets/btnCart";
 import "./styles/ProductGallery.css";
+
 
 const ProductGallery = () => {
   
@@ -33,6 +35,7 @@ const ProductGallery = () => {
             <img src={productos.image} alt={productos.name} />
             <h3>{productos.name}</h3>
             <p>{productos.price}</p>
+            <BtnCart />
           </div>
         ))}
       </div>

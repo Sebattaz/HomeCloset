@@ -13,8 +13,8 @@ export const HomeProvaider =({children})=>{
     }, []);
     
 
-    const addLike =()=>{
-        
+    const addCart =()=>{
+
     }
 
     const contextValues={
