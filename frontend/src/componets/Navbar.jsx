@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/navbar.css';
 import { Nav, Navbar, Dropdown} from 'react-bootstrap';
-
 import {NavLink} from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
