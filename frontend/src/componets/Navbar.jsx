@@ -66,7 +66,7 @@ const NavBar = () => {
                     <FaSearch />
                     Busqueda
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/ddd"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/Login"} >
                     <FaUser />
                     Login
                 </Nav.Link>

@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
 import { useState } from "react";
-import './styles/Home.css'
+import './styles/Home.css';
 
 
 const Home = () => {
