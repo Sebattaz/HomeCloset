@@ -24,7 +24,6 @@
   padding: 30px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  background-color: #ece2c7;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,5 +64,8 @@
     color: red;
     font-size: 14px;
     margin-top: 5px;
+  }
+  .registroStyle{
+    background-color: #D9CCA9;
   }
   
