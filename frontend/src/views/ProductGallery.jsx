@@ -35,7 +35,7 @@ const ProductGallery = () => {
             <img src={productos.image} alt={productos.name} />
             <h3>{productos.name}</h3>
             <p>{productos.price}</p>
-            <BtnCart />
+            <BtnCart nombre={productos.name} img={productos.image} precio={productos.price} />
           </div>
         ))}
       </div>

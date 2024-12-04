@@ -3,10 +3,10 @@ import { Button } from 'react-bootstrap';
 import { FaCartPlus } from "react-icons/fa";
 import { homeContext } from '../context/HomeContext';
 
-const BtnCart = () => {
+const BtnCart = ({nombre, img, precio}) => {
     const {addCart} = useContext(homeContext)
   return (
-    <Button onClick={addCart}><FaCartPlus /></Button>
+    <Button onClick={()=>addCart(nombre, img, precio)}><FaCartPlus /></Button>
   )
 }
 

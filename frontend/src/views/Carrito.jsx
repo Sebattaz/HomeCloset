@@ -15,8 +15,8 @@ const Carrito = () => {
             carrito.map((cart,i)=>(
               <ListGroup.Item className='d-flex w-100' key={i}>
                 <div className='mx-2 d-flex w-50'>
-                  <img className='imgCarrito mx-3' src={cart.img} alt={cart.name} />
-                  <h4>{cart.name.toUpperCase()}</h4>
+                  <img className='imgCarrito mx-3' src={cart.img} alt={cart.nombre} />
+                  <h4>{cart.nombre.toUpperCase()}</h4>
                 </div>
               </ListGroup.Item>
             ))

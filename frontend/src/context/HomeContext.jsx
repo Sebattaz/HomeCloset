@@ -13,13 +13,15 @@ export const HomeProvaider =({children})=>{
     }, []);
     
 
-    const addCart =()=>{
-
+    const addCart =(nombre, img, precio)=>{
+        setCarrito([...carrito, {nombre, img, precio}]);
+        console.log(carrito)
     }
 
     const contextValues={
         productos,
-        carrito
+        carrito,
+        addCart
     }
 
     return(
