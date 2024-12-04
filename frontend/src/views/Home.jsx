@@ -14,6 +14,7 @@ const Home = () => {
     }
 
   return (
+    <div className="homeStyle">
     <Container className="container" >
       <Carousel activeIndex={index} onSelect={handleSelect} data-bs-theme="dark">
       <Carousel.Item className="carousel-item">
@@ -47,6 +48,7 @@ const Home = () => {
       
     </Carousel>
     </Container>
+    </div>
   );
 };
 

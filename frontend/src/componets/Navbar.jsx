@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/navbar.css';
+import './styles/Navbar.css';
 import { Nav, Navbar, Dropdown} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
@@ -16,7 +16,8 @@ const NavBar = () => {
  
  
   return (
-    <Navbar className="bg-light d-flex align-items-center justify-content-between fixed-top" expand="lg">
+   
+    <Navbar className="bg-light d-flex align-items-center justify-content-between fixed-top navStyle" expand="lg">
       {/* Botón hamburguesa con menú desplegable */}
       <Dropdown>
         <Dropdown.Toggle
@@ -79,6 +80,7 @@ const NavBar = () => {
 
 
     </Navbar>
+  
   )
 }
 

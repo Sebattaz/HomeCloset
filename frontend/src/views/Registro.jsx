@@ -45,6 +45,7 @@ const RegisterPage = () => {
   };
 
   return (
+    <div className="registroStyle">
     <Container className="register-container">
       
       <form onSubmit={handleSubmit} className="register-form">
@@ -92,6 +93,7 @@ const RegisterPage = () => {
         <button type="submit">Registrarse</button>
       </form>
     </Container>
+    </div>
   );
 };
 
