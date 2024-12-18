@@ -62,7 +62,7 @@ const NavBar = () => {
                     <RiUserAddFill />
                     Registrate  
                 </Nav.Link>
-                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/asdasd"} >
+                <Nav.Link as={NavLink} className={`${setActive} d-flex flex-column align-items-center text-center mx-3`} to={"/Busqueda"} >
                     <FaSearch />
                     Busqueda
                 </Nav.Link>

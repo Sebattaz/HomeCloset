@@ -1,0 +1,105 @@
+/* MisPublicaciones.css */
+
+.mis-publicaciones-container {
+    background-color: #D9CCA9; /* Color de fondo principal */
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #5A4A3B; /* Un tono marrón oscuro para el texto */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card {
+    border: 1px solid #C5B798; /* Un borde suave para las tarjetas */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #FAF4E8; /* Fondo claro para contraste */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5A4A3B; /* Texto oscuro */
+  }
+  
+  .card-text {
+    color: #7C6A56; /* Texto con un tono marrón medio */
+  }
+  
+  button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF; /* Texto blanco para contraste */
+    border-radius: 6px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button.btn-danger {
+    background-color: #B86B77; /* Un tono rojizo suave */
+    border: none;
+  }
+  
+  button.btn-danger:hover {
+    background-color: #95364C; /* Rojizo más oscuro al pasar el mouse */
+  }
+  
+  button.btn-primary {
+    background-color: #6A9353; /* Verde suave */
+    border: none;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #4F6C3C; /* Verde oscuro */
+  }
+  
+  .modal-content {
+    background-color: #FAF4E8; /* Fondo claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+  
+  .modal-title {
+    color: #5A4A3B; /* Marrón oscuro */
+  }
+  
+  form label {
+    color: #5A4A3B; /* Texto marrón oscuro */
+  }
+  
+  form input {
+    border: 1px solid #C5B798;
+    border-radius: 6px;
+    padding: 8px;
+  }
+  
+  form input:focus {
+    border-color: #6A9353; /* Verde suave */
+    box-shadow: 0 0 4px rgba(106, 147, 83, 0.5);
+  }
+  
+  .text-center button {
+    margin-top: 20px;
+    background-color: #6A9353; /* Botón verde */
+  }
+  
+  .text-center button:hover {
+    background-color: #4F6C3C;
+  }
+  
+  

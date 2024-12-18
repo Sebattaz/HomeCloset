@@ -1,3 +1,57 @@
-.ctnCarrito{
-    margin-top: 200px;
+.ctnCarrito {
+  display: flex;
+  flex-direction: column; /* Cambiar la dirección para colocar título y lista en columnas */
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh; /* Garantiza que ocupe toda la altura de la ventana */
+  background-color: #D9CCA9;
+  padding: 20px;
 }
+
+h4 {
+  text-align: center; /* Centrar texto horizontalmente */
+  margin-bottom: 20px; /* Separar del contenido inferior */
+  font-size: 1.5rem;
+  color: #5A4A3B; /* Color marrón oscuro */
+  font-weight: bold;
+}
+
+.imgCarrito {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.list-group {
+  width: 100%; /* Ajusta el ancho al contenedor */
+  max-width: 800px; /* Tamaño máximo para limitar el ancho */
+  margin-top: 20px; /* Espaciado desde el título */
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #FAF4E8; /* Fondo claro */
+  border-radius: 5px;
+  margin-bottom: 10px; /* Espacio entre elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+button {
+  font-size: 0.9rem;
+  background-color: #6A9353; /* Botón en verde */
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4F6C3C; /* Verde más oscuro en hover */
+}
+

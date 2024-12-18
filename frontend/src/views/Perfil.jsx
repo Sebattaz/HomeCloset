@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Button, Form } from "react-bootstrap";
 import "./styles/Perfil.css"; 
+import { useNavigate } from "react-router-dom";
 
 const Perfil = () => {
   const [image, setImage] = useState(null);
+  const navigate = useNavigate();
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
@@ -43,7 +45,9 @@ const Perfil = () => {
           <div className="d-grid gap-3">
             <Button variant="primary">Mis Productos Favoritos</Button>
             <Button variant="success">Mis Compras</Button>
-            <Button variant="info">Mis Publicaciones</Button>
+            <Button variant="info" onClick={() => navigate("/MisPublicaciones")}>
+  Mis Publicaciones
+</Button>
           </div>
         </Col>
       </Row>

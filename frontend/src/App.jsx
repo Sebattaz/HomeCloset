@@ -10,6 +10,8 @@ import ProductGallery from './views/ProductGallery';
 import Carrito from './views/Carrito';
 import Login from './views/Login';
 import Perfil from './views/Perfil';
+import Busqueda from "./views/Busqueda";
+import MisPublicaciones from "./views/MisPublicaciones";
 
 
 
@@ -26,6 +28,8 @@ const App = () => {
             <Route path="Login" element={<Login />} />
             <Route path="/Perfil" element={<Perfil />} />
             <Route path='/Carrito' element={<Carrito />} />
+            <Route path="/Busqueda" element={<Busqueda />} />
+            <Route path="/MisPublicaciones" element={<MisPublicaciones />} />
           </Routes>
         {/* Footer disponible en todas las rutas */}
         <Footer />

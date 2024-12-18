@@ -4,7 +4,6 @@ import { homeContext } from "../context/HomeContext";
 import BtnCart from "../componets/btnCart";
 import "./styles/ProductGallery.css";
 
-
 const ProductGallery = () => {
   
   const { productos } = useContext(homeContext)
@@ -47,6 +46,7 @@ const ProductGallery = () => {
         <button onClick={handleNext} disabled={currentPage === totalPages}>
           Siguiente
         </button>
+        
       </div>
     </Container>
   );

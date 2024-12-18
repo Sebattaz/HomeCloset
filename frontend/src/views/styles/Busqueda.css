@@ -1,0 +1,29 @@
+.search-container {
+    background-color: #D9CCA9; /* Color de fondo */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .search-input {
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  

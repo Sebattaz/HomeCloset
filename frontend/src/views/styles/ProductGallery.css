@@ -4,7 +4,7 @@
     margin-top: 150px;
     padding: 20px;
     text-align: center;
-  }
+    background-color: #D9CCA9;  }
   
   .product-grid {
     display: grid;
