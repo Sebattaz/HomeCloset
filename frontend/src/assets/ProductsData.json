@@ -2,61 +2,61 @@
   {
     "id": 1,
     "name": "Sábanas Premium",
-    "price": "$50",
+    "price": 30000,
     "image": "/imagenes/sabanas.jpg"
   },
   {
     "id": 2,
     "name": "Cobija Suave",
-    "price": "$40",
+    "price": 25000,
     "image": "/imagenes/frazada.jpg"
   },
   {
     "id": 3,
     "name": "Almohadas Cómodas",
-    "price": "$30",
+    "price": 30000,
     "image": "/imagenes/almohadas.jpg"
   },
   {
     "id": 4,
     "name": "Toallas de Lujo",
-    "price": "$25",
+    "price": 20000,
     "image": "/imagenes/toalla.jpg"
   },
   {
     "id": 5,
     "name": "Cortinas Elegantes",
-    "price": "$60",
+    "price": 27000,
     "image": "/imagenes/cortinas.jpg"
   },
   {
     "id": 6,
     "name": "Manta Ligera",
-    "price": "$35",
+    "price": 20000,
     "image": "/imagenes/manta.jpg"
   },
   {
     "id": 7,
     "name": "Cubre Colchon",
-    "price": "$10",
+    "price": 27000,
     "image": "/imagenes/cubrecolchon.jpg"
   },
   {
     "id": 8,
     "name": "Cobertor King Size",
-    "price": "$75",
+    "price": 48000,
     "image": "/imagenes/cubrecama.jpg"
   },
   {
     "id": 9,
     "name": "Set de Toallas",
-    "price": "$45",
+    "price": 15000,
     "image": "/imagenes/settoallas.png"
   },
   {
     "id": 10,
     "name": "Colcha Moderna",
-    "price": "$90",
+    "price": 25000,
     "image": "/imagenes/cobertor.jpg"
   }
 ]

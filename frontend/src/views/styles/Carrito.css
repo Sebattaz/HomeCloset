@@ -3,6 +3,7 @@
   flex-direction: column; /* Cambiar la dirección para colocar título y lista en columnas */
   justify-content: flex-start;
   align-items: center;
+  margin-top: 100px;  
   min-height: 100vh; /* Garantiza que ocupe toda la altura de la ventana */
   background-color: #D9CCA9;
   padding: 20px;

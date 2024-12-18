@@ -33,7 +33,7 @@ const ProductGallery = () => {
           <div className="product-card" key={productos.id}>
             <img src={productos.image} alt={productos.name} />
             <h3>{productos.name}</h3>
-            <p>{productos.price}</p>
+            <p>{productos.price.toLocaleString('es-CL')}</p>
             <BtnCart nombre={productos.name} img={productos.image} precio={productos.price} />
           </div>
         ))}

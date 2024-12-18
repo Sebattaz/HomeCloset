@@ -52,7 +52,7 @@ const Carrito = () => {
             ))}
           </ListGroup>
           <div className="text-end mt-4">
-            <h4>Total: ${calcularTotal()}</h4>
+            <h4>Total: ${calcularTotal().toLocaleString('es-CL')}</h4>
           </div>
         </>
       )}
