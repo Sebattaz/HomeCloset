@@ -3,6 +3,8 @@
     min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
     padding: 20px;
     border-radius: 10px;
+    height: auto;
+    margin-top: 100px;
   }
   
   .search-input {
