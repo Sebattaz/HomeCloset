@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Container } from "react-bootstrap";
 import { homeContext } from "../context/HomeContext";
-import BtnCart from "../componets/btnCart";
+import BtnCart from "../componets/BtnCart";
 import "./styles/ProductGallery.css";
 
 const ProductGallery = () => {

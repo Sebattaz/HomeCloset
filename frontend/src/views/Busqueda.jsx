@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card, Form } from "react-bootstrap";
 import productsData from "../assets/ProductsData.json";
 import "./styles/Busqueda.css";
+import BtnCart from "../componets/BtnCart";
 
 const Busqueda = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -42,6 +43,7 @@ const Busqueda = () => {
               <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
                 <Card.Text>{product.price}</Card.Text>
+                <BtnCart nombre={product.name} img={product.image} precio={product.price} />
               </Card.Body>
             </Card>
           </Col>
