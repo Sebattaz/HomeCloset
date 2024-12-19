@@ -14,8 +14,8 @@ const Carrito = () => {
   // Eliminar un producto del carrito
   const eliminarProducto = (id) => {
     // Filtrar el carrito para eliminar el producto con el ID correspondiente
-    const nuevoCarrito = carrito.filter((item) => item.id !== id);
-    setCarrito(nuevoCarrito);
+    setCarrito( carrito.filter((item) => item.id !== id));
+    
   };
 
   return (

@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap';
 import { FaCartPlus } from "react-icons/fa";
 import { homeContext } from '../context/HomeContext';
 
+
 const BtnCart = ({nombre, img, precio}) => {
     const {addCart} = useContext(homeContext)
   return (

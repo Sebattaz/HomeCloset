@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 export const homeContext = createContext();
 import ListProduc from "../assets/ProductsData.json";
+import swal from 'sweetalert';
 
 export const HomeProvaider =({children})=>{
 
@@ -15,6 +16,7 @@ export const HomeProvaider =({children})=>{
 
     const addCart =(nombre, img, precio)=>{
         setCarrito([...carrito, {nombre, img, precio}]);
+        swal(`${nombre.toUpperCase()}`,`Producto. ${nombre} añadido con éxito`)
         console.log(carrito)
     }
 
